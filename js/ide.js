@@ -1,4 +1,4 @@
-var defaultUrl = localStorageGetItem("api-url") || "https://ce.judge0.com";
+var defaultUrl = localStorageGetItem("api-url") || "http://judge0.centralindia.cloudapp.azure.com:2358";
 var apiUrl = defaultUrl;
 var wait = localStorageGetItem("wait") || false;
 var check_timeout = 300;
